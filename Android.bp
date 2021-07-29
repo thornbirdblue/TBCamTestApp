@@ -1,0 +1,9 @@
+android_app {
+    name: "TBCamTest",
+    // Only compile source java files in this apk.
+    srcs: ["src/**/*.kt"],
+    sdk_version: "current",
+    dex_preopt: {
+        enabled: false,
+    },
+}
